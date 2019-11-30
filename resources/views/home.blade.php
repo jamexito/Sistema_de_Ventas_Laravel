@@ -19,7 +19,7 @@
                         <button class="btn btn-transparent p-0 float-right" type="button">
                             <i class="fa fa-shopping-cart fa-4x"></i>
                         </button>
-                        <div class="text-value h2"><strong>USD {{$total->totalcompra}} (MES ACTUAL)</strong></div>
+                        <div class="text-value h2"><strong>S/. {{$total->totalcompra}} (MES ACTUAL)</strong></div>
                         <div class="h2">Compras</div>
                     </div>
                     <div class="chart-wrapper mt-3 mx-3" style="height:35px;">
@@ -35,7 +35,7 @@
                         <button class="btn btn-transparent p-0 float-right" type="button">
                             <i class="fa fa-suitcase fa-4x"></i>
                         </button>
-                        <div class="text-value h2"><strong>USD {{$total->totalventa}} (MES ACTUAL) </strong></div>
+                        <div class="text-value h2"><strong>S/. {{$total->totalventa}} (MES ACTUAL) </strong></div>
                         <div class="h2">Ventas</div>
                     </div>
                     <div class="chart-wrapper mt-3 mx-3" style="height:35px;">
